@@ -7,6 +7,7 @@ from datetime import datetime
 
 #open files
 path="/home/titojff/Desktop/"
+#rename html file file to just  >    b
 bokmarks_file = open(path+"b",'r')
 end_file = open(path+"end.csv",'a')
 bt=bokmarks_file.read()
